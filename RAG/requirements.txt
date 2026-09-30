@@ -1,0 +1,18 @@
+# 공통 (preprocessing.ipynb, income_tax_rag_demo.ipynb, app.py 전체에서 사용)
+python-docx
+sentence-transformers==5.6.1
+numpy==2.5.1
+google-genai
+python-dotenv==1.2.2
+
+# preprocessing.ipynb / income_tax_rag_demo.ipynb 실행용
+jupyter==1.1.1
+ipykernel==7.3.0
+nbformat==5.10.4
+
+# preprocessing.ipynb에서 4대보험 보충 PDF를 만드는 데 필요
+reportlab==5.0.0
+pypdf==6.14.2
+
+# app.py (Streamlit 웹앱) 실행용
+streamlit==1.60.0
